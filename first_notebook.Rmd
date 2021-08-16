@@ -1,5 +1,5 @@
 ---
-title: "R Notebook, Data Viz"
+title: "R Notebook, Data Viz "
 output: html_notebook
 ---
 ```{r setup}
