@@ -15,3 +15,6 @@ usethis::edit_r_environ()
 Sys.getenv("GITHUB_PAT_lilly")
 
 credentials::set_github_pat(TRUE)
+
+rsconnect::writeManifest()
+
