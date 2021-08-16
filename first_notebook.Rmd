@@ -1,5 +1,5 @@
 ---
-title: "R Notebook, Data Viz "
+title: "R Notebook, Data Viz"
 output: html_notebook
 ---
 ```{r setup}
@@ -24,7 +24,7 @@ This is data viz
 
 ```{r}
 simulated_patient_data %>%
- filter(birthdate >= "1975-01-01" & birthdate <= "2020-11-09") %>%
+ filter(birthdate >= "1975-06-01" & birthdate <= "2020-11-09") %>%
  
     filter(marital %in% "S" | is.na(marital)) %>%
  ggplot() +
